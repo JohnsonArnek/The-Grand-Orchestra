@@ -732,7 +732,7 @@ song = {
 
 
 song = {
-	name = "Latin America/Argentina/Suite Norteña, Chacarera.mp3"
+	name = "Latin America/Argentina/Suite NorteÃ±a, Chacarera.mp3"
 	chance = {
 		modifier = { factor = 2 }
 		modifier = { factor = 0 war = yes }
@@ -742,7 +742,7 @@ song = {
 } 
 
 song = {
-	name = "Latin America/Argentina/Vidala, Suite N1 de Impresiones Norteñas.mp3"
+	name = "Latin America/Argentina/Vidala, Suite N1 de Impresiones NorteÃ±as.mp3"
 	chance = {
 		modifier = { factor = 2 }
 		modifier = { factor = 0 war = yes }
@@ -760,6 +760,111 @@ song = {
 		modifier = { factor = 0 NOT = { primary_culture = argentinian } }
 	}
 } 
+
+####################################################################################################################################
+
+# Greece
+
+song = {
+	name = "Thourios.mp3"
+	chance = {
+		modifier = { factor = 2 }
+		modifier = { factor = 2   { year = 1837 } }
+		modifier = { factor = 0.5 { year = 1900 } }
+		modifier = { factor = 0 { war = yes } }
+		modifier = { factor = 0 NOT = { primary_culture = greek } }
+	}
+} 
+
+
+song = {
+	name = "National Anthem of Greece Version 2 FULL VERSION.mp3"
+	chance = {
+		modifier = { factor = 2 }
+		modifier = { factor = 0.5 { year = 1837 } }
+		modifier = { factor = 2 { year = 1900 } }
+		modifier = { factor = 0 war = yes }
+		modifier = { factor = 0 NOT = { primary_culture = greek } }
+	}
+} 
+
+song = {
+	name = "Greece Never Dies.mp3"
+	chance = {
+		modifier = { factor = 2 }
+		modifier = { factor = 2 { year = 1837 } }
+		modifier = { factor = 0.5  { year = 1900 } }
+		modifier = { factor = 0 war = no }
+		modifier = { factor = 0 NOT = { primary_culture = greek } }
+	}
+} 
+
+song = {
+	name = " Heroes.mp3"
+	chance = {
+		modifier = { factor = 2 }
+		modifier = { factor = 0.5 { year = 1837 } }
+		modifier = { factor = 2  { year = 1900 } }
+		modifier = { factor = 0 war = no }
+		modifier = { factor = 0 NOT = { primary_culture = greek } }
+	}
+} 
+
+song = {
+	name = "I wish it was 1821.mp3"
+	chance = {
+		modifier = { factor = 2 }
+		modifier = { factor = 0.5 { year = 1837 } }
+		modifier = { factor = 2  { year = 1900 } }
+		modifier = { factor = 0 NOT = { primary_culture = greek } }
+	}
+} 
+
+song = {
+	name = "Crete Revolt.mp3"
+	chance = {
+		modifier = { factor = 2 }
+		modifier = { factor = 0.5 { TAG = GRE } }
+		modifier = { factor = 2 { TAG = CRE } }
+		modifier = { factor = 1 { owns = 848 } }
+		modifier = { factor = 0 war = no }
+		modifier = { factor = 0 NOT = { primary_culture = greek } }
+	}
+}
+
+song = {
+	name = "Cyprus.mp3"
+	chance = {
+		modifier = { factor = 2 }
+		modifier = { factor = 0.5 { TAG = GRE } }
+		modifier = { factor = 2 { TAG = CYP } }
+		modifier = { factor = 1 { owns = 855 } }
+		modifier = { factor = 0 war = no }
+		modifier = { factor = 0 NOT = { primary_culture = greek } }
+	}
+} 
+
+song = {
+	name = "Greece Reconquers Constantinople.mp3"
+	chance = {
+		modifier = { factor = 2 }
+		modifier = { factor = 0.5 { TAG = GRE } }
+		modifier = { factor = 2 { TAG = BYZ } }
+		modifier = { factor = 1 { owns = 860 } }
+		modifier = { factor = 0 NOT = { primary_culture = greek } }
+	}
+} 
+
+song = {
+	name = "Ti Ipermaho National Anthem of Byzantine Empire.mp3"
+	chance = {
+		modifier = { factor = 2 }
+		modifier = { factor = 0.5 { TAG = GRE } }
+		modifier = { factor = 2 { TAG = BYZ } }
+		modifier = { factor = 1 { has_country_flag = renovated_hagia_sophia } }
+		modifier = { factor = 0 NOT = { primary_culture = greek } }
+	}
+}
 
 
 
