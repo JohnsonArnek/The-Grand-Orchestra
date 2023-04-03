@@ -851,6 +851,7 @@ song = {
 		modifier = { factor = 0.5 { TAG = GRE } }
 		modifier = { factor = 2 { TAG = BYZ } }
 		modifier = { factor = 1 { owns = 860 } }
+		modifier = { factor = 0 war = no }
 		modifier = { factor = 0 NOT = { primary_culture = greek } }
 	}
 } 
@@ -866,6 +867,16 @@ song = {
 	}
 }
 
-
+song = {
+	name = "Agni Parthene (Greek with English translation).mp3"
+	chance = {
+		modifier = { factor = 2 }
+		modifier = { factor = 0.5 { TAG = GRE } }
+		modifier = { factor = 2 { TAG = BYZ } }
+		modifier = { factor = 1 { owns = 860 } }
+		modifier = { factor = 0 war = yes }
+		modifier = { factor = 0 NOT = { primary_culture = greek } }
+	}
+} 
 
 
