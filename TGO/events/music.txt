@@ -58,6 +58,15 @@ country_event = {
 				}
 				set_country_flag = latin_america_music
 			}
+			
+			any_country = { 
+				limit = {       
+					OR = {
+						primary_culture = greek
+					}
+				}
+				set_country_flag = greek_music
+			}
 
 		}
 	}
@@ -120,6 +129,15 @@ country_event = {
 					}
 				}
 				set_country_flag = latin_america_music
+			}
+			
+			any_country = { 
+				limit = {       
+					OR = {
+						primary_culture = greek
+					}
+				}
+				set_country_flag = greek_music
 			}
 
 		}
